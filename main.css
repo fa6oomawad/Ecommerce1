@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    padding:0;
+}
+nav{
+    position: fixed;
+    background-color: rgb(19, 17, 16);
+    height: 80px;
+    width: 100%;
+}
+.upmenu{
+    text-align: right;
+}
+.upmenu li{
+    display: inline-block;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left:10px;
+    margin-right: 7px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+#searchbar{
+    outline-style: none;
+    border-radius: 5px;
+    border:1px solid transparent;
+}
+
+.lowermenu li {
+    display:inline-block;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left:10px;
+    color: rgb(255, 255, 255);
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    cursor: pointer;
+}
