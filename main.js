@@ -13,9 +13,8 @@ function zoomIn(){
     console.log(productDetails)
     productDetails.style.display="none";
     let img = this.querySelector('.proImg img');
-    img.style.width="120%";
-    img.style.height="120%";
-    
+    img.style.height="100%";
+    img.style.width="100%";
 
 
 }
@@ -27,8 +26,8 @@ function zoomout(){
     let overlay=box.querySelector('.overlay');
     overlay.style.display='none';
     let img = this.querySelector('.proImg img');
-    img.style.width="100%";
-    img.style.height="100%";
+    img.style.height="90%";
+    img.style.width="90%";
 
 }
 
