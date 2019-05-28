@@ -225,3 +225,50 @@ margin-top:5px;
     background-position: center;
     position: relative;
 }
+
+.part4{
+    width :100%;
+    height: 550px;
+    background-image:url(wallapaper3.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.part3 button{
+    background-color:rgb(65, 65, 65);
+    color:white;
+    border:1px solid white;
+}
+.part3 button:hover {
+    background-color:white;
+    color:black;
+    border:1px solid black;
+}
+
+.socialMedia {
+    width:100%;
+    height:100px;
+    background-color: rgb(48, 47, 47);
+}
+.box {
+    margin-top:30px;
+    margin-left:100px;
+    display:inline-block;
+}
+
+.box i , .box2 i {
+    margin-right:20px;
+    color:rgb(129, 129, 129);
+}
+
+.box2 {
+    margin-top:30px;
+    margin-right:50px;
+    float:right;
+    display:inline;
+    
+}
+
+.box i:hover , .box2 i:hover {
+    color:white;
+}
